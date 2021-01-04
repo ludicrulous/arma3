@@ -1,0 +1,1 @@
+./arma3server -config=server.cfg -name="jericho" -mod="@ace;@cbaa;@ace_compat_rhs_afrf3;@ace_compat_rhs_gref3;@ace_compat_rhs_usf3;@rhsafrf;@rhsgref;@rhsusaf" -world=empty -noSound

@@ -1,0 +1,14 @@
+# copy in /etc/systemd/system/arma.service
+
+[Unit]
+Description=Arma3 Server
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=steam
+ExecStart=/path/to/arma3/script.sh
+ExecStop=/bin/kill -2 $MAINPID
+
+[Install]
+WantedBy=multi-user.target

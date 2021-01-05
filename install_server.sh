@@ -17,7 +17,7 @@ set -o errexit
 apt update
 dpkg --add-architecture i386
 apt update
-apt install lib32gcc1 steamcmd libsdl2-2.0-0:i386 git
+apt install lib32gcc1 steamcmd libsdl2-2.0-0:i386 git wget
 
 
 #link the steamcmd executable
@@ -45,3 +45,7 @@ read varname
 
 cp ~/arma3/start_server ~/.steam/steamcmd/arma3/
 cp ~/arma3/server.cfg ~/.steam/steamcmd/arma3/
+
+#copy the antistasi pbo file into the arma/mpmissions directory
+wget https://github.com/official-antistasi-community/A3-Antistasi/releases/download/2.3.2/Antistasi-Altis-2-3-2.Altis.pbo
+cp Antistasi-Altis-2-3-2.Altis.pbo .steam/steamcmd/arma3/mpmissions/

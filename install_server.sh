@@ -49,3 +49,6 @@ cp ~/arma3/server.cfg ~/.steam/steamcmd/arma3/
 #copy the antistasi pbo file into the arma/mpmissions directory
 wget https://github.com/official-antistasi-community/A3-Antistasi/releases/download/2.3.2/Antistasi-Altis-2-3-2.Altis.pbo
 cp Antistasi-Altis-2-3-2.Altis.pbo .steam/steamcmd/arma3/mpmissions/
+
+# create the symlink for the profile
+bash profiles/create_symlink.sh

@@ -7,7 +7,7 @@ Wants=network-online.target
 [Service]
 Type=simple
 User=steam
-ExecStart=/path/to/arma3/script.sh
+ExecStart=/home/steam/.steam/steamcmd/arma3/arma3server
 ExecStop=/bin/kill -2 $MAINPID
 
 [Install]

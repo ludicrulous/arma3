@@ -1,2 +1,2 @@
 #!/bin/bash
-./arma3server -config=server.cfg -name="jericho" -mod="@ace;@cbaa;@ace_compat_rhs_afrf3;@ace_compat_rhs_gref3;@ace_compat_rhs_usf3;@ace_compat_rhs_saf;@rhsafrf;@rhsgref;@rhsusaf;@rhssaf;@task_force_radio" -world=empty -noSound
+./arma3server -config=server.cfg -name="sinnlosag" -mod="@ace;@cbaa;@ace_compat_rhs_afrf3;@ace_compat_rhs_gref3;@ace_compat_rhs_usf3;@ace_compat_rhs_saf;@rhsafrf;@rhsgref;@rhsusaf;@rhssaf;@task_force_radio" -world=empty -noSound

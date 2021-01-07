@@ -53,7 +53,7 @@ class Params
      {
           title = "Max distance from HQ for tasks";
           values[] = {2000,4000,6000,8000,10000,12000};
-          default = 6000;
+          default = 2000;
      };
      class allowPvP
      {
